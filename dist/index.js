@@ -6,6 +6,7 @@ var RouterMethods;
     RouterMethods["POST"] = "post";
     RouterMethods["GET"] = "get";
     RouterMethods["DELETE"] = "delete";
+    RouterMethods["PUT"] = "put";
 })(RouterMethods = exports.RouterMethods || (exports.RouterMethods = {}));
 var urls = global.urls || {};
 var routers = [];

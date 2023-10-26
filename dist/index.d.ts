@@ -1,7 +1,8 @@
 export declare enum RouterMethods {
     POST = "post",
     GET = "get",
-    DELETE = "delete"
+    DELETE = "delete",
+    PUT = "put"
 }
 export interface ObjRoutes {
     path: string;
